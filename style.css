@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+header .main-div {
+    background-image: url(image/hero-bg.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+header .main-div #section-one .navbar{
+    height: 90px;
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 75px;
+}
+
+header .main-div #section-one .navbar .content2{
+    /* border: 1px solid yellow; */
+    font-size: 16px;
+}
+
+header .main-div #section-one .navbar ul {
+    display: flex;
+    /* border: 1px solid ; */
+    gap: 50px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header .main-div #section-one .navbar ul li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    letter-spacing: .5px;
+}
+
+header .main-div #section-one .navbar .content3 {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid ; */
+    gap: 18px;
+}
+
+header .main-div #section-one .navbar .content3 p {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    letter-spacing: .8px;
+    font-weight: 500;
+
+}
+
+header .main-div #section-one .navbar .content3 button {
+    padding: 14.5px 27px;
+    border: none;
+    border-radius: 50px ;
+    font-size: 14.4px;
+    background-color: #d5d52c;
+    color: #004439;
+    font-weight: 500;
+}
+
+header .main-div #section-two .main-div1 {
+    /* border:1px solid; */
+    /* height: 50vh; */
+    display: flex;
+    padding: 40px 60px;
+}
+
+header .main-div #section-two .main-div1 img {
+    position: absolute;
+    left: 43.5%;
+    top: 50%;
+    height: 128px;
+}
+
+header .main-div #section-two .main-div1 .content1 {
+    /* border: 1px solid ; */
+    padding: 50px 16px 0px 16px;
+    width: 43%;
+    height: 400px;
+}
+
+
+header .main-div #section-two .main-div1 .content1 h2 {
+    font-size: 62px;
+    font-weight: 450;
+    color: #fff;
+    padding-bottom: 20px;
+    /* word-spacing: 0px; */
+    letter-spacing: .5px;
+}
+
+header .main-div #section-two .main-div1 .content1 h2 span {
+    font-weight: 900;
+    color: #d5d52c;
+    text-decoration: underline;
+    letter-spacing: 1.2px;
+    margin-left: 2px;
+}
+
+header .main-div #section-two .main-div1 .content1 p {
+     width: 90%;
+     font-size: 16.8px;
+     /* word-spacing: .2px; */
+     font-family: "Inter", sans-serif;
+     width: 80%;
+     line-height: 24px;
+     color: #eaeaec;
+}
+
+header .main-div #section-two .main-div1 .content1 .button {
+    /* border: 1px solid; */
+    display: flex;
+    gap: 12px;
+    margin-top: 40px
+}
+
+header .main-div #section-two .main-div1 .content1 .button button {
+    padding: 10px 26px;
+    border: none;
+    border-radius: 100px;
+    font-size: 14.5px;
+    font-weight: 500;
+    background-color: #d5d52c;
+    color: #004439;
+}
+
+header .main-div #section-two .main-div1 .content1 .button #btn2 {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid white;
+     padding: 13.6px 26px;
+
+}
+
+header .main-div #section-two .main-div1 .content2 {
+    /* border: 1px solid ; */
+    position: relative;
+    bottom: 270px;
+    
+    
+}
+
+header .main-div #section-two .main-div1 .content2 img {
+    height: 600px;
+    /* width: 670px; */
+    /* width: 100%; */
+    padding: 0px 0px 0px 80px;
+}
